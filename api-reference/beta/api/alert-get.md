@@ -154,7 +154,7 @@ Content-type: application/json
       "natDestinationPort": "String",
       "natSourceAddress": "String",
       "natSourcePort": "String",
-      "protocol": "@odata.type: microsoft.graph.securityNetworkProtocol",
+      "protocol": "String",
       "riskScore": "String",
       "sourceAddress": "String",
       "sourcePort": "String",

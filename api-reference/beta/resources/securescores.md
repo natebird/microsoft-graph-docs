@@ -1,10 +1,10 @@
 ---
-title: "secureScores resource type"
+title: "secureScore resource type"
 description: "top=n, where n = the number of days of data that you want to retrieve. "
 localization_priority: Normal
 ---
 
-# secureScores resource type
+# secureScore resource type
 
 [!INCLUDE [beta-disclaimer](../../includes/beta-disclaimer.md)]
 
@@ -48,22 +48,23 @@ The following is a JSON representation of the resource.
   "optionalProperties": [
 
   ],
-  "@odata.type": "microsoft.graph.secureScores"
+  "@odata.type": "microsoft.graph.secureScore"
 }-->
 
 ```json
 {
-"id": "String",
-"azureTenantId": "Guid",
-"createdDate": "DateTimeOffset",
-"licensedUserCount": "Int32",
-"activeUserCount": "Int32",
-"currentScore": "Int32",
-"maxScore": "Int32",
-"averageScore": "Double",
-"enabledServices": "Collection(string)",
-"averageComparativeScores": "Collection(microsoft.graph.SecureScore.averageComparativeScores)",
-"controlScores": "Collection(microsoft.graph.SecureScore.controlScores)",
+  "id": "String",
+  "azureTenantId": "Guid",
+  "createdDate": "DateTimeOffset",
+  "licensedUserCount": "Int32",
+  "activeUserCount": "Int32",
+  "currentScore": "Int32",
+  "maxScore": "Int32",
+  "averageScore": "Double",
+  "enabledServices": "Collection(string)",
+  "averageComparativeScores": "Collection(microsoft.graph.SecureScore.averageComparativeScores)",
+  "controlScores": "Collection(microsoft.graph.SecureScore.controlScores)",
+  "createdDateTime": "2019-02-07T20:33:53.156Z"
 }
 
 ```

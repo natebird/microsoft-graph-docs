@@ -94,7 +94,7 @@ primitive types.
 
 | Name       | Value |
 |:---------------|:----------|
-| @odata.type | Microsoft.Graph.OpenTypeExtension |
+| @odata.type | microsoft.graph.openTypeExtension |
 | extensionName | %unique_string% |
 
 When creating an extension in a _new_ resource instance, in addition to the
@@ -136,6 +136,7 @@ The first example creates a message and an extension in the same call. The reque
 }-->
 ```http
 POST https://graph.microsoft.com/beta/me/messages
+Content-Type: application/json
 
 {
   "subject": "Annual review",
@@ -152,7 +153,7 @@ POST https://graph.microsoft.com/beta/me/messages
   ],
   "extensions": [
     {
-      "@odata.type": "Microsoft.Graph.OpenTypeExtension",
+      "@odata.type": "microsoft.graph.openTypeExtension",
       "extensionName": "Com.Contoso.Referral",
       "companyName": "Wingtip Toys",
       "expirationDate": "2015-12-30T11:00:00.000Z",
@@ -260,9 +261,10 @@ extension:
 }-->
 ```http
 POST https://graph.microsoft.com/beta/me/messages('AAMkAGE1M2IyNGNmLTI5MTktNDUyZi1iOTVl===')/extensions
+Content-Type: application/json
 
 {
-  "@odata.type" : "Microsoft.Graph.OpenTypeExtension",
+  "@odata.type" : "microsoft.graph.openTypeExtension",
   "extensionName" : "Com.Contoso.Referral",
   "companyName" : "Wingtip Toys",
   "dealValue" : 500050,
@@ -281,7 +283,7 @@ Here is the response for the second example. The response body includes the foll
 <!-- {
   "blockType": "response",
   "truncated": false,
-  "@odata.type": "microsoft.graph.opentypeextension"
+  "@odata.type": "microsoft.graph.openTypeExtension"
 } -->
 ```http
 HTTP/1.1 201 Created
@@ -317,9 +319,10 @@ extension:
 }-->
 ```http
 POST https://graph.microsoft.com/beta/groups('f5480dfd-7d77-4d0b-ba2e-3391953cc74a')/events('AAMkADVl17IsAAA=')/extensions
+Content-type: application/json
 
 {
-  "@odata.type" : "Microsoft.Graph.OpenTypeExtension",
+  "@odata.type" : "microsoft.graph.openTypeExtension",
   "extensionName" : "Com.Contoso.Deal",
   "companyName" : "Alpine Skis",
   "dealValue" : 1010100,
@@ -334,7 +337,7 @@ Here is the response from the third example request.
 <!-- {
   "blockType": "response",
   "truncated": false,
-  "@odata.type": "microsoft.graph.opentypeextension"
+  "@odata.type": "microsoft.graph.openTypeExtension"
 } -->
 ```http
 HTTP/1.1 201 Created
@@ -342,7 +345,7 @@ Content-type: application/json
 
 {
     "@odata.context": "https://graph.microsoft.com/beta/$metadata#groups('f5480dfd-7d77-4d0b-ba2e-3391953cc74a')/events('AAMkADVl7IsAAA%3D')/extensions/$entity",
-    "@odata.type": "#Microsoft.Graph.OpenTypeExtension",
+    "@odata.type": "#microsoft.graph.openTypeExtension",
     "id": "Microsoft.OutlookServices.OpenTypeExtension.Com.Contoso.Deal",
     "extensionName": "Com.Contoso.Deal",
     "companyName": "Alpine Skis",
@@ -369,6 +372,7 @@ the **body** of the new post, and the following data for the new extension:
 }-->
 ```http
 POST https://graph.microsoft.com/beta/groups('37df2ff0-0de0-4c33-8aee-75289364aef6')/threads('AAQkADJizZJpEWwqDHsEpV_KA==')/posts('AAMkADJiUg96QZUkA-ICwMubAAC1heiSAAA=')/reply
+Content-type: application/json
 
 {
   "post": {
@@ -378,7 +382,7 @@ POST https://graph.microsoft.com/beta/groups('37df2ff0-0de0-4c33-8aee-75289364ae
     },
   "extensions": [
     {
-      "@odata.type": "Microsoft.OutlookServices.OpenTypeExtension",
+      "@odata.type": "microsoft.outlookServices.openTypeExtension",
       "extensionName": "Com.Contoso.HR",
       "companyName": "Contoso",
       "expirationDate": "2015-07-03T13:04:00.000Z",
@@ -427,6 +431,7 @@ in turn contains the **body** of the new post, and the following data for the ex
 }-->
 ```http
 POST https://graph.microsoft.com/beta/groups('37df2ff0-0de0-4c33-8aee-75289364aef6')/conversations
+Content-type: application/json
 
 {
   "Topic": "Does anyone have a second?",
@@ -440,7 +445,7 @@ POST https://graph.microsoft.com/beta/groups('37df2ff0-0de0-4c33-8aee-75289364ae
           },
           "Extensions": [
             {
-              "@odata.type": "Microsoft.OutlookServices.OpenTypeExtension",
+              "@odata.type": "microsoft.outlookServices.openTypeExtension",
               "extensionName": "Com.Contoso.Benefits",
               "companyName": "Contoso",
               "expirationDate": "2016-08-03T11:00:00.000Z",

@@ -67,7 +67,12 @@ Content-type: application/json
 Content-length: 350
 
 {
-  "adminEligibleSettings":[{"ruleIdentifier":"ExpirationRule","setting":"{\"permanentAssignment\":false,\"maximumGrantPeriodInMinutes\":129600}"}]
+   "adminEligibleSettings":[
+      {
+         "ruleIdentifier":"ExpirationRule",
+         "setting":"{\"permanentAssignment\":false,\"maximumGrantPeriodInMinutes\":129600}"
+      }
+   ]
 }
 ```
 ##### Response

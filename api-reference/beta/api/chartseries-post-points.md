@@ -33,11 +33,11 @@ POST /workbook/worksheets/{id|name}/charts(<name>)/series(<undefined>)/points
 | Workbook-Session-Id  | Workbook session Id that determines if changes are persisted or not. Optional.|
 
 ## Request body
-In the request body, supply a JSON representation of [ChartPoints](../resources/chartpoint.md) object.
+In the request body, supply a JSON representation of [workbookChartPoints](../resources/workbookchartpoint.md) object.
 
 ## Response
 
-If successful, this method returns `201 Created` response code and [ChartPoints](../resources/chartpoint.md) object in the response body.
+If successful, this method returns `201 Created` response code and [workbookChartPoints](../resources/workbookchartpoint.md) object in the response body.
 
 ## Example
 ##### Request
@@ -54,13 +54,13 @@ Content-length: 3
 {
 }
 ```
-In the request body, supply a JSON representation of [ChartPoints](../resources/chartpoint.md) object.
+In the request body, supply a JSON representation of [workbookChartPoints](../resources/workbookchartpoint.md) object.
 ##### Response
 Here is an example of the response. Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
 <!-- {
   "blockType": "response",
   "truncated": true,
-  "@odata.type": "microsoft.graph.chartPoint"
+  "@odata.type": "microsoft.graph.workbookChartPoint"
 } -->
 ```http
 HTTP/1.1 201 Created

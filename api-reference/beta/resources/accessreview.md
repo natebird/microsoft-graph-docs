@@ -123,8 +123,6 @@ The `accessReviewSettings` provides additional settings when creating an access 
 | `autoApplyReviewResultsEnabled`|`Boolean` | Flag to indicate whether auto-apply capability, to automatically change the target object access resource, is enabled.  If not enabled, a user must, after the review completes, apply the access review. |
 | `accessRecommendationsEnabled`|`Boolean` | Flag to indicate whether showing recommendations to reviewers is enabled. |
 
-
-
 ## The autoReviewSettings type
 
 The `autoReviewSettings` is embedded within the access review settings, and specifies the behavior for the feature when an access review completes.  The type has one property, `notReviewedResult`.
@@ -144,7 +142,6 @@ The `accessReviewRecurrenceSettings` is embedded within the access review settin
 | `recurrenceEndType`|`String` | How the recurrence ends. If it is `Never`, then there is no explicit end of the recurrence series. If it is `endBy`, then the recurrence ends at a certain date. If it is `occurrences`, then the series ends after `recurrentCount` instances of the review have completed. |
 | `durationInDays`|`Int32`     | The duration in days for recurrence.                                                                              |
 | `recurrenceCount`|`Int32`    | The count of recurrences, if the value of `recurrenceEndType` is `occurrences`, or 0 otherwise.                                                        |
-
 
 
 <!--

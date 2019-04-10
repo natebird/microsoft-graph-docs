@@ -1,12 +1,12 @@
 ---
-title: "Get ChartAxis"
-description: "Retrieve the properties and relationships of chartaxis object."
+title: "Get workbookChartAxis"
+description: "Retrieve the properties and relationships of workbookChartAxis object."
 author: "lumine2008"
 localization_priority: Normal
 ms.prod: "excel"
 ---
 
-# Get ChartAxis
+# Get workbookChartAxis
 
 [!INCLUDE [beta-disclaimer](../../includes/beta-disclaimer.md)]
 
@@ -41,7 +41,7 @@ Do not supply a request body for this method.
 
 ## Response
 
-If successful, this method returns a `200 OK` response code and [ChartAxis](../resources/chartaxis.md) object in the response body.
+If successful, this method returns a `200 OK` response code and [workbookChartAxis](../resources/workbookchartaxis.md) object in the response body.
 ## Example
 ##### Request
 Here is an example of the request.
@@ -57,7 +57,7 @@ Here is an example of the response. Note: The response object shown here may be 
 <!-- {
   "blockType": "response",
   "truncated": true,
-  "@odata.type": "microsoft.graph.chartaxis"
+  "@odata.type": "microsoft.graph.workbookChartAxis"
 } -->
 ```http
 HTTP/1.1 200 OK
@@ -65,12 +65,9 @@ Content-type: application/json
 Content-length: 64
 
 {
-  "majorUnit": {
-  },
-  "maximum": {
-  },
-  "minimum": {
-  }
+  "majorUnit": "string",
+  "maximum": "string",
+  "minimum": "string"
 }
 ```
 

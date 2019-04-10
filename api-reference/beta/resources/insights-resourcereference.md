@@ -10,12 +10,17 @@ ms.prod: "insights"
 
 [!INCLUDE [beta-disclaimer](../../includes/beta-disclaimer.md)]
 
-Complex type containing properties of [Insights](insights.md).
+Complex type containing properties of [insights](officegraphinsights.md).
 
 ## JSON representation
 
 Here is a JSON representation of the resource
-
+<!-- {
+  "blockType": "resource",
+  "optionalProperties": [
+  ],
+  "@odata.type": "microsoft.graph.resourceReference"
+}-->
 ```json
 {
   "webUrl": "string",

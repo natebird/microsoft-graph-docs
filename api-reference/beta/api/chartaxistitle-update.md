@@ -1,16 +1,16 @@
 ---
-title: "Update chartaxistitle"
-description: "Update the properties of chartaxistitle object."
+title: "Update workbookChartAxisTitle"
+description: "Update the properties of workbookchartaxistitle object."
 author: "lumine2008"
 localization_priority: Normal
 ms.prod: "excel"
 ---
 
-# Update chartaxistitle
+# Update workbookChartAxisTitle
 
 [!INCLUDE [beta-disclaimer](../../includes/beta-disclaimer.md)]
 
-Update the properties of chartaxistitle object.
+Update the properties of workbookChartAxisTitle object.
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
@@ -43,7 +43,7 @@ In the request body, supply the values for relevant fields that should be update
 
 ## Response
 
-If successful, this method returns a `200 OK` response code and updated [ChartAxisTitle](../resources/chartaxistitle.md) object in the response body.
+If successful, this method returns a `200 OK` response code and updated [workbookChartAxisTitle](../resources/workbookchartaxistitle.md) object in the response body.
 ## Example
 ##### Request
 Here is an example of the request.
@@ -66,7 +66,7 @@ Here is an example of the response. Note: The response object shown here may be 
 <!-- {
   "blockType": "response",
   "truncated": true,
-  "@odata.type": "microsoft.graph.chartAxisTitle"
+  "@odata.type": "microsoft.graph.workbookChartAxisTitle"
 } -->
 ```http
 HTTP/1.1 200 OK

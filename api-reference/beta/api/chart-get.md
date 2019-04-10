@@ -6,7 +6,7 @@ localization_priority: Normal
 ms.prod: "excel"
 ---
 
-# Get Chart
+# Get workbookchart
 
 [!INCLUDE [beta-disclaimer](../../includes/beta-disclaimer.md)]
 
@@ -39,7 +39,7 @@ Do not supply a request body for this method.
 
 ## Response
 
-If successful, this method returns a `200 OK` response code and [Chart](../resources/chart.md) object in the response body.
+If successful, this method returns a `200 OK` response code and [workbookChart](../resources/workbookchart.md) object in the response body.
 ## Example
 ##### Request
 Here is an example of the request.
@@ -55,7 +55,7 @@ Here is an example of the response. Note: The response object shown here may be 
 <!-- {
   "blockType": "response",
   "truncated": true,
-  "@odata.type": "microsoft.graph.chart"
+  "@odata.type": "microsoft.graph.workbookChart"
 } -->
 ```http
 HTTP/1.1 200 OK

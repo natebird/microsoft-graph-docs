@@ -25,13 +25,14 @@ Here is a JSON representation of the resource.
   "optionalProperties": [
 
   ],
-  "@odata.type": "microsoft.graph.deviceDetail"
+  "@odata.type": "microsoft.graph.networkLocationDetail"
 }-->
 
 ```json
 {
   "networkTypes": "namedNetork",
-  "networkName": "String"
+  "networkName": "String",
+  "networkType": "string"
 }
 
 ```

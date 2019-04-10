@@ -29,7 +29,7 @@ Here is a JSON representation of the resource
     "ownedObjects",
     "owners"
   ],
-  "@odata.type": "microsoft.graph.serviceprincipal"
+  "@odata.type": "microsoft.graph.servicePrincipal"
 }-->
 
 ```json
@@ -53,7 +53,8 @@ Here is a JSON representation of the resource
   "replyUrls": ["string"],
   "samlMetadataUrl": "string",
   "servicePrincipalNames": ["string"],
-  "tags": ["string"]
+  "tags": ["string"],
+  "appRoles": [{"@odata.type": "microsoft.graph.appRole"}]
 }
 
 ```
