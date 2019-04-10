@@ -24,7 +24,7 @@ appropriate time zone.
 ## Properties
 | Property	   | Type	|Description|
 |:---------------|:--------|:----------|
-| daysOfWeek | String collection | The days of the week on which the user works. |
+| daysOfWeek | dayOfWeek collection | The days of the week on which the user works. |
 | startTime | Edm.TimeOfDay | The time of the day that the user starts working. |
 | endTime | Edm.TimeOfDay | The time of the day that the user stops working. |
 | timeZone | [timeZoneBase](timezonebase.md) | The time zone to which the working hours apply. |
@@ -45,8 +45,8 @@ Here is a JSON representation of the resource.
 ```json
 {
   "daysOfWeek": ["string"],
-  "startTime": "String (TimeOfDay)",
-  "endTime": "String (TimeOfDay)",
+  "startTime": "TimeOfDay",
+  "endTime": "TimeOfDay",
   "timeZone": {"@odata.type": "microsoft.graph.timeZoneBase"}
 }
 
