@@ -79,6 +79,15 @@ Content-type: application/json
   }
 }
 ```
+#### SDK Sample Code
+
+# [Javascript](#tab/Javascript)
+[!INCLUDE [Sample Code]( ../includes/create-listitem-Javascript-snippets.md)]
+
+---
+
+Read the [SDK documentation](https://docs.microsoft.com/en-us/graph/sdks/sdks-overview) for details on how to [add the SDK](https://docs.microsoft.com/en-us/graph/sdks/sdk-installation) to your project and [create an authProvider](https://docs.microsoft.com/en-us/graph/sdks/choose-authentication-providers) instance.
+
 
 **Note:** The response object is truncated for clarity. Default properties will be returned from the actual call.
 
@@ -90,5 +99,8 @@ Content-type: application/json
   "description": "Add a new item to a SharePoint list.",
   "keywords": "",
   "section": "documentation",
-  "tocPath": "ListItem/Create"
+  "tocPath": "ListItem/Create",
+  "suppressions": [
+    "Error: /api-reference/v1.0/api/listitem-create.md:\r\n      Exception processing links.\r\n    System.ArgumentException: Link Definition was null. Link text: !INCLUDE [Sample Code]( ../includes/create-listitem-Javascript-snippets.md)\r\n      at ApiDoctor.Validation.DocFile.get_LinkDestinations()\r\n      at ApiDoctor.Validation.DocSet.ValidateLinks(Boolean includeWarnings, String[] relativePathForFiles, IssueLogger issues, Boolean requireFilenameCaseMatch, Boolean printOrphanedFiles)"
+  ]
 } -->

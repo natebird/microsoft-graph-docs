@@ -92,6 +92,17 @@ Content-type: application/json
     "wrapText": false
 }
 ```
+#### SDK Sample Code
+# [C#](#tab/CS)
+[!INCLUDE [Sample Code]( ../includes/update_rangeformat-CS-snippets.md)]
+
+# [Javascript](#tab/Javascript)
+[!INCLUDE [Sample Code]( ../includes/update_rangeformat-Javascript-snippets.md)]
+
+---
+
+Read the [SDK documentation](https://docs.microsoft.com/en-us/graph/sdks/sdks-overview) for details on how to [add the SDK](https://docs.microsoft.com/en-us/graph/sdks/sdk-installation) to your project and [create an authProvider](https://docs.microsoft.com/en-us/graph/sdks/choose-authentication-providers) instance.
+
 
 ##### Request
 This request updates the font style, size, and color of the first cell. 
@@ -130,6 +141,17 @@ Content-type: application/json
     "underline": "None"
 }
 ```
+#### SDK Sample Code
+# [C#](#tab/CS)
+[!INCLUDE [Sample Code]( ../includes/update_rangeformat_font-CS-snippets.md)]
+
+# [Javascript](#tab/Javascript)
+[!INCLUDE [Sample Code]( ../includes/update_rangeformat_font-Javascript-snippets.md)]
+
+---
+
+Read the [SDK documentation](https://docs.microsoft.com/en-us/graph/sdks/sdks-overview) for details on how to [add the SDK](https://docs.microsoft.com/en-us/graph/sdks/sdk-installation) to your project and [create an authProvider](https://docs.microsoft.com/en-us/graph/sdks/choose-authentication-providers) instance.
+
 
 ##### Request
 This request updates the background color of the first cell. 
@@ -161,6 +183,17 @@ Content-type: application/json
     "color": "#FF0000"
 }
 ```
+#### SDK Sample Code
+# [C#](#tab/CS)
+[!INCLUDE [Sample Code]( ../includes/update_rangeformat_fill-CS-snippets.md)]
+
+# [Javascript](#tab/Javascript)
+[!INCLUDE [Sample Code]( ../includes/update_rangeformat_fill-Javascript-snippets.md)]
+
+---
+
+Read the [SDK documentation](https://docs.microsoft.com/en-us/graph/sdks/sdks-overview) for details on how to [add the SDK](https://docs.microsoft.com/en-us/graph/sdks/sdk-installation) to your project and [create an authProvider](https://docs.microsoft.com/en-us/graph/sdks/choose-authentication-providers) instance.
+
 ##### Request
 This request updates the vertical alignment, horizontal alignment, row height, and column height of the second cell. 
 
@@ -199,6 +232,17 @@ Content-type: application/json
     "wrapText": false
 }
 ```
+#### SDK Sample Code
+# [C#](#tab/CS)
+[!INCLUDE [Sample Code]( ../includes/update_rangeformat_two-CS-snippets.md)]
+
+# [Javascript](#tab/Javascript)
+[!INCLUDE [Sample Code]( ../includes/update_rangeformat_two-Javascript-snippets.md)]
+
+---
+
+Read the [SDK documentation](https://docs.microsoft.com/en-us/graph/sdks/sdks-overview) for details on how to [add the SDK](https://docs.microsoft.com/en-us/graph/sdks/sdk-installation) to your project and [create an authProvider](https://docs.microsoft.com/en-us/graph/sdks/choose-authentication-providers) instance.
+
 
 ##### Request
 This request updates the font style and size of the second cell. 
@@ -236,6 +280,17 @@ Content-type: application/json
     "underline": "None"
 }
 ```
+#### SDK Sample Code
+# [C#](#tab/CS)
+[!INCLUDE [Sample Code]( ../includes/update_rangeformat_font_two-CS-snippets.md)]
+
+# [Javascript](#tab/Javascript)
+[!INCLUDE [Sample Code]( ../includes/update_rangeformat_font_two-Javascript-snippets.md)]
+
+---
+
+Read the [SDK documentation](https://docs.microsoft.com/en-us/graph/sdks/sdks-overview) for details on how to [add the SDK](https://docs.microsoft.com/en-us/graph/sdks/sdk-installation) to your project and [create an authProvider](https://docs.microsoft.com/en-us/graph/sdks/choose-authentication-providers) instance.
+
 
 ##### Request
 This request updates the background color of the second cell. 
@@ -267,6 +322,17 @@ Content-type: application/json
     "color": "#00FF00"
 }
 ```
+#### SDK Sample Code
+# [C#](#tab/CS)
+[!INCLUDE [Sample Code]( ../includes/update_rangeformat_fill_two-CS-snippets.md)]
+
+# [Javascript](#tab/Javascript)
+[!INCLUDE [Sample Code]( ../includes/update_rangeformat_fill_two-Javascript-snippets.md)]
+
+---
+
+Read the [SDK documentation](https://docs.microsoft.com/en-us/graph/sdks/sdks-overview) for details on how to [add the SDK](https://docs.microsoft.com/en-us/graph/sdks/sdk-installation) to your project and [create an authProvider](https://docs.microsoft.com/en-us/graph/sdks/choose-authentication-providers) instance.
+
 
 ##### Request
 This request updates the horizontal alignment, vertical alignment, row height, and column height of the third cell. 
@@ -306,6 +372,17 @@ Content-type: application/json
     "wrapText": false
 }
 ```
+#### SDK Sample Code
+# [C#](#tab/CS)
+[!INCLUDE [Sample Code]( ../includes/update_rangeformat_three-CS-snippets.md)]
+
+# [Javascript](#tab/Javascript)
+[!INCLUDE [Sample Code]( ../includes/update_rangeformat_three-Javascript-snippets.md)]
+
+---
+
+Read the [SDK documentation](https://docs.microsoft.com/en-us/graph/sdks/sdks-overview) for details on how to [add the SDK](https://docs.microsoft.com/en-us/graph/sdks/sdk-installation) to your project and [create an authProvider](https://docs.microsoft.com/en-us/graph/sdks/choose-authentication-providers) instance.
+
 
 ##### Request
 This request updates the font style, size, and color of the third cell. Note that the underline property takes **Single** or **Double** as values.
@@ -344,6 +421,17 @@ Content-type: application/json
     "underline": "Single"
 }
 ```
+#### SDK Sample Code
+# [C#](#tab/CS)
+[!INCLUDE [Sample Code]( ../includes/update_rangeformat_font_three-CS-snippets.md)]
+
+# [Javascript](#tab/Javascript)
+[!INCLUDE [Sample Code]( ../includes/update_rangeformat_font_three-Javascript-snippets.md)]
+
+---
+
+Read the [SDK documentation](https://docs.microsoft.com/en-us/graph/sdks/sdks-overview) for details on how to [add the SDK](https://docs.microsoft.com/en-us/graph/sdks/sdk-installation) to your project and [create an authProvider](https://docs.microsoft.com/en-us/graph/sdks/choose-authentication-providers) instance.
+
 
 ##### Request
 This request updates the background color of the third cell. 
@@ -375,6 +463,17 @@ Content-type: application/json
     "color": "#0000FF"
 }
 ```
+#### SDK Sample Code
+# [C#](#tab/CS)
+[!INCLUDE [Sample Code]( ../includes/update_rangeformat_fill_three-CS-snippets.md)]
+
+# [Javascript](#tab/Javascript)
+[!INCLUDE [Sample Code]( ../includes/update_rangeformat_fill_three-Javascript-snippets.md)]
+
+---
+
+Read the [SDK documentation](https://docs.microsoft.com/en-us/graph/sdks/sdks-overview) for details on how to [add the SDK](https://docs.microsoft.com/en-us/graph/sdks/sdk-installation) to your project and [create an authProvider](https://docs.microsoft.com/en-us/graph/sdks/choose-authentication-providers) instance.
+
 
 <!-- uuid: 8fcb5dbc-d5aa-4681-8e31-b001d5168d79
 2015-10-25 14:57:30 UTC -->
@@ -384,6 +483,24 @@ Content-type: application/json
   "keywords": "",
   "section": "documentation",
   "suppressions": [
+    "Error: /api-reference/v1.0/api/rangeformat-update.md:\r\n      Exception processing links.\r\n    System.ArgumentException: Link Definition was null. Link text: !INCLUDE [Sample Code]( ../includes/update_rangeformat_fill_three-CS-snippets.md)\r\n      at ApiDoctor.Validation.DocFile.get_LinkDestinations()\r\n      at ApiDoctor.Validation.DocSet.ValidateLinks(Boolean includeWarnings, String[] relativePathForFiles, IssueLogger issues, Boolean requireFilenameCaseMatch, Boolean printOrphanedFiles)",
+    "Error: /api-reference/v1.0/api/rangeformat-update.md:\r\n      Exception processing links.\r\n    System.ArgumentException: Link Definition was null. Link text: !INCLUDE [Sample Code]( ../includes/update_rangeformat_fill_three-Javascript-snippets.md)\r\n      at ApiDoctor.Validation.DocFile.get_LinkDestinations()\r\n      at ApiDoctor.Validation.DocSet.ValidateLinks(Boolean includeWarnings, String[] relativePathForFiles, IssueLogger issues, Boolean requireFilenameCaseMatch, Boolean printOrphanedFiles)",
+    "Error: /api-reference/v1.0/api/rangeformat-update.md:\r\n      Exception processing links.\r\n    System.ArgumentException: Link Definition was null. Link text: !INCLUDE [Sample Code]( ../includes/update_rangeformat_font_three-CS-snippets.md)\r\n      at ApiDoctor.Validation.DocFile.get_LinkDestinations()\r\n      at ApiDoctor.Validation.DocSet.ValidateLinks(Boolean includeWarnings, String[] relativePathForFiles, IssueLogger issues, Boolean requireFilenameCaseMatch, Boolean printOrphanedFiles)",
+    "Error: /api-reference/v1.0/api/rangeformat-update.md:\r\n      Exception processing links.\r\n    System.ArgumentException: Link Definition was null. Link text: !INCLUDE [Sample Code]( ../includes/update_rangeformat_font_three-Javascript-snippets.md)\r\n      at ApiDoctor.Validation.DocFile.get_LinkDestinations()\r\n      at ApiDoctor.Validation.DocSet.ValidateLinks(Boolean includeWarnings, String[] relativePathForFiles, IssueLogger issues, Boolean requireFilenameCaseMatch, Boolean printOrphanedFiles)",
+    "Error: /api-reference/v1.0/api/rangeformat-update.md:\r\n      Exception processing links.\r\n    System.ArgumentException: Link Definition was null. Link text: !INCLUDE [Sample Code]( ../includes/update_rangeformat_three-CS-snippets.md)\r\n      at ApiDoctor.Validation.DocFile.get_LinkDestinations()\r\n      at ApiDoctor.Validation.DocSet.ValidateLinks(Boolean includeWarnings, String[] relativePathForFiles, IssueLogger issues, Boolean requireFilenameCaseMatch, Boolean printOrphanedFiles)",
+    "Error: /api-reference/v1.0/api/rangeformat-update.md:\r\n      Exception processing links.\r\n    System.ArgumentException: Link Definition was null. Link text: !INCLUDE [Sample Code]( ../includes/update_rangeformat_three-Javascript-snippets.md)\r\n      at ApiDoctor.Validation.DocFile.get_LinkDestinations()\r\n      at ApiDoctor.Validation.DocSet.ValidateLinks(Boolean includeWarnings, String[] relativePathForFiles, IssueLogger issues, Boolean requireFilenameCaseMatch, Boolean printOrphanedFiles)",
+    "Error: /api-reference/v1.0/api/rangeformat-update.md:\r\n      Exception processing links.\r\n    System.ArgumentException: Link Definition was null. Link text: !INCLUDE [Sample Code]( ../includes/update_rangeformat_fill_two-CS-snippets.md)\r\n      at ApiDoctor.Validation.DocFile.get_LinkDestinations()\r\n      at ApiDoctor.Validation.DocSet.ValidateLinks(Boolean includeWarnings, String[] relativePathForFiles, IssueLogger issues, Boolean requireFilenameCaseMatch, Boolean printOrphanedFiles)",
+    "Error: /api-reference/v1.0/api/rangeformat-update.md:\r\n      Exception processing links.\r\n    System.ArgumentException: Link Definition was null. Link text: !INCLUDE [Sample Code]( ../includes/update_rangeformat_fill_two-Javascript-snippets.md)\r\n      at ApiDoctor.Validation.DocFile.get_LinkDestinations()\r\n      at ApiDoctor.Validation.DocSet.ValidateLinks(Boolean includeWarnings, String[] relativePathForFiles, IssueLogger issues, Boolean requireFilenameCaseMatch, Boolean printOrphanedFiles)",
+    "Error: /api-reference/v1.0/api/rangeformat-update.md:\r\n      Exception processing links.\r\n    System.ArgumentException: Link Definition was null. Link text: !INCLUDE [Sample Code]( ../includes/update_rangeformat_font_two-CS-snippets.md)\r\n      at ApiDoctor.Validation.DocFile.get_LinkDestinations()\r\n      at ApiDoctor.Validation.DocSet.ValidateLinks(Boolean includeWarnings, String[] relativePathForFiles, IssueLogger issues, Boolean requireFilenameCaseMatch, Boolean printOrphanedFiles)",
+    "Error: /api-reference/v1.0/api/rangeformat-update.md:\r\n      Exception processing links.\r\n    System.ArgumentException: Link Definition was null. Link text: !INCLUDE [Sample Code]( ../includes/update_rangeformat_font_two-Javascript-snippets.md)\r\n      at ApiDoctor.Validation.DocFile.get_LinkDestinations()\r\n      at ApiDoctor.Validation.DocSet.ValidateLinks(Boolean includeWarnings, String[] relativePathForFiles, IssueLogger issues, Boolean requireFilenameCaseMatch, Boolean printOrphanedFiles)",
+    "Error: /api-reference/v1.0/api/rangeformat-update.md:\r\n      Exception processing links.\r\n    System.ArgumentException: Link Definition was null. Link text: !INCLUDE [Sample Code]( ../includes/update_rangeformat_two-CS-snippets.md)\r\n      at ApiDoctor.Validation.DocFile.get_LinkDestinations()\r\n      at ApiDoctor.Validation.DocSet.ValidateLinks(Boolean includeWarnings, String[] relativePathForFiles, IssueLogger issues, Boolean requireFilenameCaseMatch, Boolean printOrphanedFiles)",
+    "Error: /api-reference/v1.0/api/rangeformat-update.md:\r\n      Exception processing links.\r\n    System.ArgumentException: Link Definition was null. Link text: !INCLUDE [Sample Code]( ../includes/update_rangeformat_two-Javascript-snippets.md)\r\n      at ApiDoctor.Validation.DocFile.get_LinkDestinations()\r\n      at ApiDoctor.Validation.DocSet.ValidateLinks(Boolean includeWarnings, String[] relativePathForFiles, IssueLogger issues, Boolean requireFilenameCaseMatch, Boolean printOrphanedFiles)",
+    "Error: /api-reference/v1.0/api/rangeformat-update.md:\r\n      Exception processing links.\r\n    System.ArgumentException: Link Definition was null. Link text: !INCLUDE [Sample Code]( ../includes/update_rangeformat_fill-CS-snippets.md)\r\n      at ApiDoctor.Validation.DocFile.get_LinkDestinations()\r\n      at ApiDoctor.Validation.DocSet.ValidateLinks(Boolean includeWarnings, String[] relativePathForFiles, IssueLogger issues, Boolean requireFilenameCaseMatch, Boolean printOrphanedFiles)",
+    "Error: /api-reference/v1.0/api/rangeformat-update.md:\r\n      Exception processing links.\r\n    System.ArgumentException: Link Definition was null. Link text: !INCLUDE [Sample Code]( ../includes/update_rangeformat_fill-Javascript-snippets.md)\r\n      at ApiDoctor.Validation.DocFile.get_LinkDestinations()\r\n      at ApiDoctor.Validation.DocSet.ValidateLinks(Boolean includeWarnings, String[] relativePathForFiles, IssueLogger issues, Boolean requireFilenameCaseMatch, Boolean printOrphanedFiles)",
+    "Error: /api-reference/v1.0/api/rangeformat-update.md:\r\n      Exception processing links.\r\n    System.ArgumentException: Link Definition was null. Link text: !INCLUDE [Sample Code]( ../includes/update_rangeformat_font-CS-snippets.md)\r\n      at ApiDoctor.Validation.DocFile.get_LinkDestinations()\r\n      at ApiDoctor.Validation.DocSet.ValidateLinks(Boolean includeWarnings, String[] relativePathForFiles, IssueLogger issues, Boolean requireFilenameCaseMatch, Boolean printOrphanedFiles)",
+    "Error: /api-reference/v1.0/api/rangeformat-update.md:\r\n      Exception processing links.\r\n    System.ArgumentException: Link Definition was null. Link text: !INCLUDE [Sample Code]( ../includes/update_rangeformat_font-Javascript-snippets.md)\r\n      at ApiDoctor.Validation.DocFile.get_LinkDestinations()\r\n      at ApiDoctor.Validation.DocSet.ValidateLinks(Boolean includeWarnings, String[] relativePathForFiles, IssueLogger issues, Boolean requireFilenameCaseMatch, Boolean printOrphanedFiles)",
+    "Error: /api-reference/v1.0/api/rangeformat-update.md:\r\n      Exception processing links.\r\n    System.ArgumentException: Link Definition was null. Link text: !INCLUDE [Sample Code]( ../includes/update_rangeformat-CS-snippets.md)\r\n      at ApiDoctor.Validation.DocFile.get_LinkDestinations()\r\n      at ApiDoctor.Validation.DocSet.ValidateLinks(Boolean includeWarnings, String[] relativePathForFiles, IssueLogger issues, Boolean requireFilenameCaseMatch, Boolean printOrphanedFiles)",
+    "Error: /api-reference/v1.0/api/rangeformat-update.md:\r\n      Exception processing links.\r\n    System.ArgumentException: Link Definition was null. Link text: !INCLUDE [Sample Code]( ../includes/update_rangeformat-Javascript-snippets.md)\r\n      at ApiDoctor.Validation.DocFile.get_LinkDestinations()\r\n      at ApiDoctor.Validation.DocSet.ValidateLinks(Boolean includeWarnings, String[] relativePathForFiles, IssueLogger issues, Boolean requireFilenameCaseMatch, Boolean printOrphanedFiles)",
     "Error: update_rangeformat_font_three/underline:
       Expected type String but actual was Single. Property: underline, actual value: 'Single'"
   ],

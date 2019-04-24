@@ -54,6 +54,17 @@ If successful, the API call returns a `204 No Content`.
 ```http
 HTTP/1.1 204 No Content
 ```
+#### SDK Sample Code
+# [C#](#tab/CS)
+[!INCLUDE [Sample Code]( ../includes/restore-item-version-CS-snippets.md)]
+
+# [Javascript](#tab/Javascript)
+[!INCLUDE [Sample Code]( ../includes/restore-item-version-Javascript-snippets.md)]
+
+---
+
+Read the [SDK documentation](https://docs.microsoft.com/en-us/graph/sdks/sdks-overview) for details on how to [add the SDK](https://docs.microsoft.com/en-us/graph/sdks/sdk-installation) to your project and [create an authProvider](https://docs.microsoft.com/en-us/graph/sdks/choose-authentication-providers) instance.
+
 
 [item-resource]: ../resources/driveitem.md
 
@@ -62,5 +73,9 @@ HTTP/1.1 204 No Content
   "description": "Create a copy of an existing item.",
   "keywords": "copy existing item",
   "section": "documentation",
-  "tocPath": "Items/Copy"
+  "tocPath": "Items/Copy",
+  "suppressions": [
+    "Error: /api-reference/v1.0/api/driveitemversion-restore.md:\r\n      Exception processing links.\r\n    System.ArgumentException: Link Definition was null. Link text: !INCLUDE [Sample Code]( ../includes/restore-item-version-CS-snippets.md)\r\n      at ApiDoctor.Validation.DocFile.get_LinkDestinations()\r\n      at ApiDoctor.Validation.DocSet.ValidateLinks(Boolean includeWarnings, String[] relativePathForFiles, IssueLogger issues, Boolean requireFilenameCaseMatch, Boolean printOrphanedFiles)",
+    "Error: /api-reference/v1.0/api/driveitemversion-restore.md:\r\n      Exception processing links.\r\n    System.ArgumentException: Link Definition was null. Link text: !INCLUDE [Sample Code]( ../includes/restore-item-version-Javascript-snippets.md)\r\n      at ApiDoctor.Validation.DocFile.get_LinkDestinations()\r\n      at ApiDoctor.Validation.DocSet.ValidateLinks(Boolean includeWarnings, String[] relativePathForFiles, IssueLogger issues, Boolean requireFilenameCaseMatch, Boolean printOrphanedFiles)"
+  ]
 } -->

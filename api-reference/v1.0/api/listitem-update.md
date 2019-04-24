@@ -72,6 +72,15 @@ Content-type: application/json
   "Quantity": 934
 }
 ```
+#### SDK Sample Code
+
+# [Javascript](#tab/Javascript)
+[!INCLUDE [Sample Code]( ../includes/update-listitem-Javascript-snippets.md)]
+
+---
+
+Read the [SDK documentation](https://docs.microsoft.com/en-us/graph/sdks/sdks-overview) for details on how to [add the SDK](https://docs.microsoft.com/en-us/graph/sdks/sdk-installation) to your project and [create an authProvider](https://docs.microsoft.com/en-us/graph/sdks/choose-authentication-providers) instance.
+
 
 [fieldValueSet]: ../resources/fieldvalueset.md
 [listItem]: ../resources/listitem.md
@@ -81,5 +90,8 @@ Content-type: application/json
   "description": "",
   "keywords": "",
   "section": "documentation",
-  "tocPath": "ListItem/Update"
+  "tocPath": "ListItem/Update",
+  "suppressions": [
+    "Error: /api-reference/v1.0/api/listitem-update.md:\r\n      Exception processing links.\r\n    System.ArgumentException: Link Definition was null. Link text: !INCLUDE [Sample Code]( ../includes/update-listitem-Javascript-snippets.md)\r\n      at ApiDoctor.Validation.DocFile.get_LinkDestinations()\r\n      at ApiDoctor.Validation.DocSet.ValidateLinks(Boolean includeWarnings, String[] relativePathForFiles, IssueLogger issues, Boolean requireFilenameCaseMatch, Boolean printOrphanedFiles)"
+  ]
 } -->
